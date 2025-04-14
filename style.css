@@ -21,7 +21,7 @@ body {
     background-color: #f7f7f7;
 }
 
-.header {
+header {
     background-color: #fff;
     padding: 5px;
     display: flex;
