@@ -1,6 +1,4 @@
- body{
-    margin: 0px;
- }
+
 .active a{
     float: right;
     color: #050303;
@@ -23,7 +21,7 @@ body {
     background-color: #f7f7f7;
 }
 
-header {
+.header {
     background-color: #fff;
     padding: 5px;
     display: flex;
