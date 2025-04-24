@@ -13,14 +13,15 @@ body{
 h1{
     text-align: center;
     color: violet; 
+    font-family: cinzel;
 }  
 h2{
     text-align: center;
 }
 .go{ 
-  background-color: #fff;
+  background-color: #f1f8f6;
     border-radius: 15px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px rgba(163, 0, 0, 0.267);
     padding: 10px 20px;
     transition: transform 0.2s;
     width: 500px;
@@ -55,6 +56,7 @@ button{
     background-color: #3842d3;
     width: 100%;
     font-size: 16px;
+    
 }
 .hg{
     padding: 15px;
@@ -62,8 +64,8 @@ button{
     margin-top: 15px;
     margin-bottom: 20px;
     border: none;
-    color: white;
-    background-color: #d64141;
+    color:  rgb(0, 0, 0);
+    background-color: #ffffff;
     width: 100%;
     font-size: 16px;
 }
@@ -77,4 +79,20 @@ button{
     background-color: #6fff6a;
     width: 100%;
     font-size: 16px;
+}
+.hg{
+    background-color: #ffffff;
+    border: none;
+    display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 10px;
+     font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.gap{
+     border: none;
+     width: 430px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
