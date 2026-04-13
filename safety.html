@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EcoRides — Safety</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #ffffff;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        /* ---------------- Header ---------------- */
+        header {
+            width: 100%;
+            background: #fff;
+            padding: 18px 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            margin: 0 16px;
+            text-decoration: none;
+            color: #111;
+            font-size: 17px;
+            font-weight: 500;
+            transition: 0.2s;
+        }
+
+        nav a:hover {
+            color: #0f7b3e;
+        }
+
+        .download-btn {
+            background: #0f7b3e;
+            color: #fff;
+            padding: 10px 22px;
+            border-radius: 25px;
+            font-size: 15px;
+            border: none;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .download-btn:hover {
+            opacity: 0.8;
+        }
+
+        /* ---------------- Hero Section ---------------- */
+        .hero {
+            padding: 80px 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .hero-text h1 {
+            font-size: 42px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: #0f7b3e;
+        }
+
+        .hero-text p {
+            font-size: 17px;
+            max-width: 500px;
+            opacity: 0.8;
+        }
+
+        .hero img {
+            width: 480px;
+            border-radius: 20px;
+            box-shadow: 0 4px 18px rgba(0,0,0,0.15);
+        }
+
+        /* ---------------- Info Section ---------------- */
+        .info-section {
+            padding: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .info-section img {
+            width: 380px;
+            border-radius: 18px;
+        }
+
+        .info-text {
+            max-width: 520px;
+        }
+
+        .info-text h2 {
+            font-size: 30px;
+            margin-bottom: 10px;
+            color: #0f7b3e;
+        }
+
+        .info-text p {
+            opacity: 0.85;
+        }
+
+        /* ---------------- Features Section ---------------- */
+        .features {
+            padding: 60px;
+        }
+
+        .features h1 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 40px;
+        }
+
+        .feature-grid {
+            display: flex;
+            gap: 40px;
+        }
+
+        .feature-card {
+            background: #f4f4f4;
+            padding: 24px;
+            border-radius: 16px;
+            flex: 1;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .feature-card h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: #0f7b3e;
+        }
+
+        /* ---------------- Two-Column Section ---------------- */
+        .dual-section {
+            padding: 60px;
+        }
+
+        .dual-grid {
+            display: flex;
+            gap: 40px;
+        }
+
+        .dual-card img {
+            width: 100%;
+            border-radius: 16px;
+            margin-bottom: 12px;
+        }
+
+        .dual-card h2 {
+            color: #0f7b3e;
+        }
+
+        /* ---------------- Quote Section ---------------- */
+        .quote-box {
+            background: #fdd835;
+            padding: 100px;
+            text-align: center;
+            font-size: 22px;
+            font-weight: 600;
+        }
+
+        /* ---------------- Footer ---------------- */
+        footer {
+            /* background: #0f7b3e; */
+            color: #000000;
+            padding: 60px 40px;
+            margin-top: -40px;
+        }
+
+        .footer-columns {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+
+        .footer-col {
+            min-width: 200px;
+            margin-bottom: 20px;
+        }
+
+        .footer-col h3 {
+            margin-bottom: 10px;
+        }
+
+        .footer-col a {
+            color: #000000;
+            opacity: 0.8;
+            display: block;
+            text-decoration: none;
+            margin: 6px 0;
+        }
+
+        .footer-col a:hover {
+            opacity: 1;
+        }
+
+        .copyright {
+            text-align: center;
+            margin-top: 20px;
+            opacity: 0.7;
+        }
+        .slanted-section{
+    background:#b7c8b9;
+    clip-path:polygon(0 14%,100% 0%,100% 100%,0% 100%);
+    width:100%;
+    margin-top:80px;
+    padding-top:150px;
+}
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="imges/ECO.jpg" width="120" />
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="home.html">Login</a>
+        <a href="#Aboutus">About Us</a>
+        <a href="safety.html">Safety</a>
+        <a href="contactus.html">Contact Us</a>
+    </nav>
+    <button class="download-btn">Download App</button>
+</header>
+
+<section class="hero">
+    <div class="hero-text">
+        <h1>Our Commitment to Safety</h1>
+        <p>
+            Your safety is our priority. From advanced technology to dedicated support, EcoRides ensures every journey is protected, monitored, and reliable.
+        </p>
+    </div>
+    <img src="https://www.familyfund.org.uk/wp-content/uploads/bis-images/2483/Young-man-driving-500x380-f50_50.png" />
+</section>
+
+<section class="info-section">
+    <img src="https://www.lystloc.com/blog/wp-content/uploads/2021/02/Img-6@2x.png" />
+    <div class="info-text">
+        <h2>Working Together to Ensure Safety</h2>
+        <p>
+            Our dedicated public safety team works closely with law enforcement 24/7 to ensure communities are secure. We respond quickly with real-time support when needed.
+        </p>
+    </div>
+</section>
+
+<section class="features">
+    <h1>How Safety Is Built Into Your Experience</h1>
+    <div class="feature-grid">
+        <div class="feature-card">
+            <h2>Safety Features in the App</h2>
+            <p>Share your trip, track rides, and access SOS features instantly.</p>
+        </div>
+        <div class="feature-card">
+            <h2>Inclusive Community</h2>
+            <p>Riders and drivers follow strict guidelines to ensure mutual respect.</p>
+        </div>
+        <div class="feature-card">
+            <h2>24/7 Support</h2>
+            <p>Our specially trained team is always ready to help—day or night.</p>
+        </div>
+    </div>
+</section>
+
+<section class="dual-section">
+    <h1 style="text-align:center; font-size: 38px; margin-bottom: 30px;">Building Safer Journeys for Everyone</h1>
+    <div class="dual-grid">
+        <div class="dual-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7dNvK7VT-Fc92LwtuaQ6PhsDyFiDj__krO22UL3FJQiAPvp88" />
+            <h2>Driver Safety</h2>
+            <p>
+                Count on 24/7 support, real-time tracking, and emergency assistance features.
+            </p>
+        </div>
+        <div class="dual-card">
+            <img src="imges/safeyimg.png" alt="">
+            <h2>Rider Safety</h2>
+            <p>
+                Millions trust EcoRides daily—your experience is protected with safety-first technology.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="quote-box">
+    “Every day, our technology connects millions of people across cities. Ensuring their safety is our greatest responsibility.”
+</section>
+<div class="slanted-section">
+<footer>
+    <div class="footer-columns">
+        <div class="footer-col">
+            <h3>EcoRides</h3>
+            <a>Facebook</a>
+            <a>Instagram</a>
+            <a>Twitter</a>
+            <a>LinkedIn</a>
+        </div>
+
+        <div class="footer-col">
+            <h3>Explore</h3>
+            <a href="index.html">Home</a>
+            <a href="contactus.html">Contact Us</a>
+            <a href="#">About Us</a>
+        </div>
+
+        <div class="footer-col">
+            <h3>Services</h3>
+            <a>Book a Ride</a>
+            <a>Drive with Us</a>
+            <a>Rental</a>
+            <a>EcoRides Wallet</a>
+        </div>
+
+        <div class="footer-col">
+            <h3>Support</h3>
+            <a>Safety</a>
+            <a>Privacy Policy</a>
+            <a>Help & Support</a>
+        </div>
+    </div>
+
+    <div class="copyright">
+        © 2025 EcoRides Electric Vehicle Transportation. All rights reserved.<br />
+        Terms of Service | Privacy Policy
+    </div>
+</footer>
+</div>
+</body>
+</html>
